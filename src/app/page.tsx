@@ -35,6 +35,11 @@ export default function Home() {
 			imagem: '/logo/logo-monthall.png',
 			link: 'https://monthall.vercel.app/'
 		},
+		{
+			nome: 'Tempo Certo',
+			imagem: '/logo/logo-tempo-certo.png',
+			link: 'https://tempo-certo-mu.vercel.app/'
+		},
 	]
 	return (
 		<div className="w-full min-h-screen bg-zinc-900 flex flex-col">
