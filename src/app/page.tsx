@@ -18,7 +18,7 @@ export default function Home() {
 		{
 			nome: 'Prefeitura Joaquim Távora',
 			imagem: '/logo/logo-prefeitura.png',
-			link: 'https://prefeitura-municipal-joaquim-tavora.vercel.app/'
+			link: 'https://prefeitura-municipal-de-joaquim-tavora-pr.vercel.app/'
 		},
 		{
 			nome: 'Quiz - Perguntas e Respostas',
