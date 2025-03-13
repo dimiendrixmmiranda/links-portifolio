@@ -40,6 +40,11 @@ export default function Home() {
 			imagem: '/logo/logo-tempo-certo.png',
 			link: 'https://tempo-certo-mu.vercel.app/'
 		},
+		{
+			nome: 'Crud',
+			imagem: '/logo/logo-crud.png',
+			link: 'https://crud-two-pi.vercel.app/'
+		},
 	]
 	return (
 		<div className="w-full min-h-screen bg-zinc-900 flex flex-col">
