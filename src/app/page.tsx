@@ -1,4 +1,5 @@
 'use client'
+import RedesSociais from "@/components/RedesSociais/RedesSociais";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -47,9 +48,9 @@ export default function Home() {
 		},
 	]
 	return (
-		<div className="w-full min-h-screen bg-zinc-900 flex flex-col">
+		<div className="w-full bg-dark-gradient bg-[length:200%_200%] animate-gradient-x font-poppins">
 			<div className="flex flex-col gap-4 p-3 max-w-[900px] mx-auto">
-				<h2 className="text-2xl font-bold text-center">Lista de Projetos</h2>
+				<h2 className="text-4xl font-bold text-center font-boogaloo tracking-wider">Lista de Projetos</h2>
 				<ul className="flex flex-col gap-2">
 					{
 						listaDeProjetos.map((projeto, i) => {
@@ -69,6 +70,7 @@ export default function Home() {
 			</div>
 			<div className="mt-auto bg-black p-3 italic">
 				<p>Lista de Projetos desenvolvido por Dimi Endrix Martins Miranda</p>
+				<RedesSociais />
 			</div>
 		</div>
 	);
